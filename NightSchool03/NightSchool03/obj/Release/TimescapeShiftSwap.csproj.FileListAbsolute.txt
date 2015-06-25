@@ -4,3 +4,9 @@ C:\Users\cj\documents\visual studio 2013\Projects\NightSchool03\NightSchool03\bi
 C:\Users\cj\documents\visual studio 2013\Projects\NightSchool03\NightSchool03\obj\Release\TimescapeShiftSwap.csprojResolveAssemblyReference.cache
 C:\Users\cj\documents\visual studio 2013\Projects\NightSchool03\NightSchool03\obj\Release\NightSchool03.dll
 C:\Users\cj\documents\visual studio 2013\Projects\NightSchool03\NightSchool03\obj\Release\NightSchool03.pdb
+C:\Users\cj\Source\Repos\WebSwapApplication\NightSchool03\NightSchool03\bin\NightSchool03.dll.config
+C:\Users\cj\Source\Repos\WebSwapApplication\NightSchool03\NightSchool03\bin\NightSchool03.dll
+C:\Users\cj\Source\Repos\WebSwapApplication\NightSchool03\NightSchool03\bin\NightSchool03.pdb
+C:\Users\cj\Source\Repos\WebSwapApplication\NightSchool03\NightSchool03\obj\Release\TimescapeShiftSwap.csprojResolveAssemblyReference.cache
+C:\Users\cj\Source\Repos\WebSwapApplication\NightSchool03\NightSchool03\obj\Release\NightSchool03.dll
+C:\Users\cj\Source\Repos\WebSwapApplication\NightSchool03\NightSchool03\obj\Release\NightSchool03.pdb
