@@ -1,0 +1,20 @@
+{
+    "environmentSettings": {
+        "webSite": {
+            "name": "NightSchool03",
+            "location": "North Europe"
+        },
+        "databases": [
+            {
+                "connectionStringName": "DefaultConnection",
+                "databaseName": "Helloworld-Cj-Database",
+                "serverName": "nsf94vmryj",
+                "user": "dbdevuser",
+                "password": "!314970o",
+                "edition": "",
+                "size": "",
+                "collation": "East US"
+            }
+        ]
+    }
+}

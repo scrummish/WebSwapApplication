@@ -1,0 +1,6 @@
+c:\users\cj\documents\visual studio 2013\Projects\NightSchool03\NightSchool03\bin\NightSchool03.dll.config
+c:\users\cj\documents\visual studio 2013\Projects\NightSchool03\NightSchool03\bin\NightSchool03.dll
+c:\users\cj\documents\visual studio 2013\Projects\NightSchool03\NightSchool03\bin\NightSchool03.pdb
+c:\users\cj\documents\visual studio 2013\Projects\NightSchool03\NightSchool03\obj\Release\NightSchool03.dll
+c:\users\cj\documents\visual studio 2013\Projects\NightSchool03\NightSchool03\obj\Release\NightSchool03.pdb
+c:\users\cj\documents\visual studio 2013\Projects\NightSchool03\NightSchool03\obj\Release\NightSchool03.csprojResolveAssemblyReference.cache
