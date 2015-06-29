@@ -6,6 +6,7 @@
     <link href="fullcalendar.print.css" rel="stylesheet" media="print"/>
     <link href="fullcalendar.css" rel="stylesheet" />
     <script src="moment.min.js"></script>
+
     <script src="jquery.min.js"></script>
     <script src="fullcalendar.js"></script>
     <script>
@@ -24,7 +25,13 @@
                 contentHeight: "auto",
                 events: "/HomeScreenws.aspx",
                 eventClick: function() {
-                    confirm("Are you sure you want to give away this shift");
+                    var c = confirm("Are you sure you want to give away this shift?");
+                    if (c==true) {
+                        alert("Your shift has been sent to the Available Shifts database.");
+                    }
+                    else{
+                        alert("You have not given up your shift");
+                    }
 
                     }
 

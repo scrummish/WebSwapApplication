@@ -24,8 +24,15 @@
                 eventLimit: true, // allow "more" link when too many events
                 contentHeight: "auto",
                 events: "/HomeScreenws.aspx",
-                eventClick: function() {
-                    confirm("Are you sure you want to give away this shift");
+
+                eventClick: function () {
+                    var c = confirm("Are you sure you want to give away this shift?");
+                    if (c==true) {
+                        alert("Your shift has been sent to the Available Shifts database.");
+                    }
+                    else{
+                        alert("You have not given up your shift");
+                    }
 
                     }
 

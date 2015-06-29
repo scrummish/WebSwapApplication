@@ -16,7 +16,7 @@ namespace NightSchool03
         protected void Page_Load(object sender, EventArgs e)
         {
             string connectionString = ConfigurationManager.ConnectionStrings["SQLAzureConnection"].ConnectionString;
-            string queryString = "SELECT * FROM dbo.Shifts Where EmployeeID= 2;";
+            string queryString = "SELECT * FROM dbo.Shifts Where EmployeeID=2;";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 SqlCommand command = new SqlCommand(queryString, connection);

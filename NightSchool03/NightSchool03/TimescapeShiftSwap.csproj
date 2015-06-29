@@ -70,7 +70,7 @@
     <Content Include="fullcalendar.js" />
     <Content Include="fullcalendar.min.js" />
     <Content Include="fullcalendar.print.css" />
-    <Content Include="GiveShiftIs_availablews.aspx" />
+    <Content Include="GiveShiftIsAvailablews.aspx" />
     <Content Include="HomeScreen.html" />
     <Content Include="HomeScreenws.aspx" />
     <Content Include="jquery.min.js" />
@@ -81,12 +81,12 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GiveShiftIs_availablews.aspx.cs">
-      <DependentUpon>GiveShiftIs_availablews.aspx</DependentUpon>
+    <Compile Include="GiveShiftIsAvailablews.aspx.cs">
+      <DependentUpon>GiveShiftIsAvailablews.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="GiveShiftIs_availablews.aspx.designer.cs">
-      <DependentUpon>GiveShiftIs_availablews.aspx</DependentUpon>
+    <Compile Include="GiveShiftIsAvailablews.aspx.designer.cs">
+      <DependentUpon>GiveShiftIsAvailablews.aspx</DependentUpon>
     </Compile>
     <Compile Include="HomeScreenws.aspx.cs">
       <DependentUpon>HomeScreenws.aspx</DependentUpon>
