@@ -26,10 +26,24 @@
                 events: "/HomeScreenws.aspx",
 
                 eventClick: function () {
-                    var c = confirm("Are you sure you want to give away this shift?");
-                    if (c==true) {
-                        alert("Your shift has been sent to the Available Shifts database.");
+                    var confirmTrue = confirm("Are you sure you want to give away this shift?");
+                    if (confirmTrue === true)
+                    {
+                        //window.open("/GiveShiftIsAvailablews.aspx");
+                        $.ajax
+                        ({
+                            type: "POST",
+                            url: "/GiveShiftIsAvailablews.aspx"
+                        })
+                        alert("Successful!!!! Your shift has been sent to the Available Shifts database.");
+                        //window.alert($.ajax
+                           // ({
+                            //type: "POST",
+                            //url: "/showgivews.aspx"})
+                            //);
+
                     }
+                    
                     else{
                         alert("You have not given up your shift");
                     }
