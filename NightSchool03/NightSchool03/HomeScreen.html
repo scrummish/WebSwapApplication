@@ -6,6 +6,7 @@
     <link href="fullcalendar.print.css" rel="stylesheet" media="print"/>
     <link href="fullcalendar.css" rel="stylesheet" />
     <script src="moment.min.js"></script>
+
     <script src="jquery.min.js"></script>
     <script src="fullcalendar.js"></script>
     <script>
@@ -23,8 +24,29 @@
                 eventLimit: true, // allow "more" link when too many events
                 contentHeight: "auto",
                 events: "/HomeScreenws.aspx",
-                eventClick: function() {
-                    confirm("Are you sure you want to give away this shift");
+
+                eventClick: function () {
+                    var confirmTrue = confirm("Are you sure you want to give away this shift?");
+                    if (confirmTrue === true)
+                    {
+                        //window.open("/GiveShiftIsAvailablews.aspx");
+                        $.ajax
+                        ({
+                            type: "POST",
+                            url: "/GiveShiftIsAvailablews.aspx"
+                        })
+                        alert("Successful!!!! Your shift has been sent to the Available Shifts database.");
+                        //window.alert($.ajax
+                           // ({
+                            //type: "POST",
+                            //url: "/showgivews.aspx"})
+                            //);
+
+                    }
+                    
+                    else{
+                        alert("You have not given up your shift");
+                    }
 
                     }
 

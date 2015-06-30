@@ -11,18 +11,18 @@ using System.Configuration;
 
 namespace NightSchool03
 {
-    public partial class HomeScreenws : System.Web.UI.Page
+    public partial class showgivews : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string connectionString = ConfigurationManager.ConnectionStrings["SQLAzureConnection"].ConnectionString;
-            string queryString = "SELECT * FROM dbo.Shifts Where EmployeeID=2;";
+             string connectionString = ConfigurationManager.ConnectionStrings["SQLAzureConnection"].ConnectionString;
+            string queryString = "SELECT * FROM dbo.Shifts Where is_available= 'true';";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 SqlCommand command = new SqlCommand(queryString, connection);
                 connection.Open();
                 SqlDataReader reader = command.ExecuteReader();
-                
+
                 try
                 {
                     //format should look like this: {“SourceDigital”:[
@@ -31,17 +31,17 @@ namespace NightSchool03
                     int x = 0;
                     while (reader.Read())
                     {
-                      
+
                         if (x == 0)
                         {
                             //format should look like this:  {“sql01”:”sql02”}
 
-                            Response.Write(String.Format("{2}{3}title{3}:{3}{0}{3},{3}start{3}:{3}{1}{3},{3}end{3}:{3}{5}{3}{4}", reader[5], reader[2], "{", "\"", "}", reader[3]));
-                        }                         
+                            Response.Write(String.Format("{2}Now_Available{4}:{2}{6}{4}", reader[5], reader[2], "{", "\"", "}", reader[3],reader[4]));
+                        }
                         else
                         {
                             //format should look like this: ,{“sql01”:”sql02”}
-                            Response.Write(String.Format(",{2}{3}title{3}:{3}{0}{3},{3}start{3}:{3}{1}{3},{3}end{3}:{3}{5}{3}{4}", reader[5], reader[2], "{", "\"", "}", reader[3]));
+                            Response.Write(String.Format(",{2}Now_Available{4}:{2}{6}{4}", reader[5], reader[2], "{", "\"", "}", reader[3], reader[4]));
                         }
                         x = x + 1;
 

@@ -11,7 +11,7 @@ namespace NightSchool03
 {
 
 
-    public partial class GiveShiftIs_availablews
+    public partial class showgivews
     {
 
         /// <summary>
