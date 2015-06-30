@@ -74,6 +74,7 @@
     <Content Include="HomeScreen.html" />
     <Content Include="HomeScreenws.aspx" />
     <Content Include="jquery.min.js" />
+    <Content Include="LoginScreen.html" />
     <Content Include="loginscreenws.aspx" />
     <Content Include="moment.min.js" />
     <Content Include="Web.config">
