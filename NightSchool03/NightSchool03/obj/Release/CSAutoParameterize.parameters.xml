@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="SQLAzureConnection-Web.config Connection String" description="SQLAzureConnection Connection String used in web.config by the application to access the database." defaultValue="&#xD;&#xA;         Data Source=tcp:tcp:nsf94vmryj.database.windows.net,1433;&#xD;&#xA;         Initial Catalog=Helloworld-Cj-Database;   &#xD;&#xA;         User ID=dbdevuser@nsf94vmryj; &#xD;&#xA;         Password=!314970o;     &#xD;&#xA;         Encrypt=true;      &#xD;&#xA;         Trusted_Connection=false;" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\cj\\documents\\visual\ studio\ 2013\\Projects\\NightSchool03\\NightSchool03\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SQLAzureConnection']/@connectionString" />
+  <parameter name="SQLAzureConnection-Web.config Connection String" description="SQLAzureConnection Connection String used in web.config by the application to access the database." defaultValue="&#xD;&#xA;         Data Source=tcp:nsf94vmryj.database.windows.net,1433;&#xD;&#xA;         Initial Catalog=elloworld-Cj-Database;   &#xD;&#xA;         User ID=dbdevuser@nsf94vmryj; &#xD;&#xA;         Password=!314970o;     &#xD;&#xA;         Encrypt=true;      &#xD;&#xA;         Trusted_Connection=false;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Fabian\\Source\\Repos\\WebSwapApplication\\NightSchool03\\NightSchool03\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SQLAzureConnection']/@connectionString" />
   </parameter>
 </parameters>

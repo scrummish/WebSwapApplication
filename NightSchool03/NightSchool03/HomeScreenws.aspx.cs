@@ -9,14 +9,14 @@ using System.Data.Sql;
 using System.Data.SqlClient;
 using System.Configuration;
 
-namespace NightSchool03
+namespace Timescape
 {
     public partial class HomeScreenws : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
             string connectionString = ConfigurationManager.ConnectionStrings["SQLAzureConnection"].ConnectionString;
-            string queryString = "SELECT * FROM dbo.Shifts Where EmployeeID= 2;";
+            string queryString = "SELECT * FROM Shifts Where EmployeeID= 2;";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 SqlCommand command = new SqlCommand(queryString, connection);

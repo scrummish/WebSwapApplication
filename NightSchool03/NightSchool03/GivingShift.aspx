@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GiveShiftIs_availablews.aspx.cs" Inherits="NightSchool03.GiveShiftIs_availablews" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GivingShift.aspx.cs" Inherits="NightSchool03.GivingShift" %>
 
 <!DOCTYPE html>
 
@@ -8,7 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div> 
+    <div>
     
     </div>
     </form>
