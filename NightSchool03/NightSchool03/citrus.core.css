@@ -1,0 +1,53 @@
+﻿<div id="myModal" class="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content size-large">
+        <div class="modal-header">
+          <h2>Modal Heading</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-delete size-medium"></i></button>
+          <div class="modal-subtitle">
+            <h3>Modal Secondary Heading</h3>
+            <select class="selectbox">
+              <option>-- Select --</option>
+              <option>Option One</option>
+            </select>
+          </div>
+        </div>
+        <div class="banner-message success">
+
+        <span class="banner-actions">
+          <button class="button outline white size-small banner-dismiss">Dismiss</button>
+        </span>
+
+        <p><span>Success: </span>You have successfully done the task you wanted to do</p>
+        </div>
+        <div class="modal-body js-modal-body">
+          <div class="js-modal-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit aliquet elit id facilisis. Nullam sit amet leo ut dolor viverra finibus. Praesent sapien tortor, bibendum quis tellus sed, gravida semper nulla. Nulla facilisi. Vivamus mattis semper efficitur. Suspendisse convallis ut massa in facilisis. Phasellus sit amet vehicula diam. Cras mauris turpis, ultricies non sapien non, interdum bibendum mi. Proin id tincidunt nulla, eget finibus libero.
+            </p>
+
+            <p>
+              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean venenatis lacinia ornare. Quisque interdum sagittis orci quis dictum. Etiam sapien tellus, aliquet in rutrum a, rhoncus ut ligula. Morbi vel commodo lectus. Duis molestie, tortor ut consequat hendrerit, velit libero egestas risus, vitae tempor risus nisi vitae quam. Integer interdum, arcu a convallis pharetra, lectus felis feugiat ligula, nec scelerisque tortor risus sit amet neque. Cras condimentum volutpat dui, eget finibus quam ultrices et.
+            </p>
+
+            <p>
+              Aenean tincidunt risus enim, vitae ornare quam aliquam at. Vestibulum et mauris ut mauris vehicula volutpat. Sed dictum sollicitudin nulla vitae elementum. Curabitur a eros nunc. Maecenas semper venenatis sem sed rutrum. Nullam eget congue ante, non sollicitudin lorem. Phasellus accumsan libero ut bibendum elementum. Quisque non rutrum nisl. Sed quam arcu, rhoncus ac pretium et, hendrerit vel lorem. Duis id hendrerit lacus. Nulla quis lacus velit. Sed porta cursus libero.
+            </p>
+
+            <p>
+              Donec pharetra orci eget posuere fermentum. Sed a pellentesque quam, non bibendum nulla. Quisque aliquet sed mauris in faucibus. Nullam vehicula volutpat libero, et ullamcorper nunc porttitor in. Maecenas ornare commodo vestibulum. Nunc euismod ante egestas, lobortis erat vitae, efficitur sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque quis neque a odio congue dignissim. Morbi accumsan dolor eget lacinia pellentesque. Quisque maximus turpis a augue aliquet luctus. Aliquam in ante non elit lacinia ornare.
+            </p>
+
+            <p>
+              Ut quam dui, sagittis eu ultrices ac, venenatis sit amet est. Maecenas sed diam ac libero tincidunt fringilla ut viverra felis. Curabitur finibus, massa non vehicula sagittis, metus leo vestibulum ex, a viverra arcu tortor eget lorem. Fusce semper est auctor, placerat libero non, rhoncus neque. Cras ipsum nisl, volutpat nec vestibulum sed, ultrices id orci. Maecenas turpis lorem, dapibus non magna condimentum, rhoncus consequat arcu. Ut sed venenatis quam, et consequat purus. Nunc facilisis ipsum eu neque malesuada, nec tristique felis pretium. Duis dictum elit felis. Donec vel ipsum ut nibh vehicula convallis. Etiam commodo sem a nisi molestie aliquam.
+            </p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="button">Save changes</button>
+          <button type="button" class="button secondary outline" data-dismiss="modal">Close</button>
+          <button type="button" class="button secondary borderless" data-dismiss="modal">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>

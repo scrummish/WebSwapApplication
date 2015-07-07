@@ -1,16 +1,22 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Home Page</title>
     <meta charset='utf-8' />
     <link href="fullcalendar.print.css" rel="stylesheet" media="print"/>
     <link href="fullcalendar.css" rel="stylesheet" />
+    <link href="homescreen.css" rel="stylesheet" />
+    <link href="citrus.core.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
     <script src="moment.min.js"></script>
-
     <script src="jquery.min.js"></script>
     <script src="fullcalendar.js"></script>
+    <script src="modal.js"></script>
+    <script src="function.js"></script>
+    <script src="jquery.js"></script>
+    <script src="modernizer.js"></script>
     <script>
-
+      
         $(document).ready(function () {
 
             $('#calendar').fullCalendar({
@@ -25,28 +31,21 @@
                 contentHeight: "auto",
                 events: "/HomeScreenws.aspx",
 
-                eventClick: function () {
+                eventClick: function() {
                     var confirmTrue = confirm("Are you sure you want to give away this shift?");
                     if (confirmTrue === true)
                     {
-                        //window.open("/GiveShiftIsAvailablews.aspx");
                         $.ajax
                         ({
                             type: "POST",
-                            url: "/GiveShiftIsAvailablews.aspx"
+                            url: "/GiveShiftIsAvailablews.aspx", 
                         })
                         alert("Successful!!!! Your shift has been sent to the Available Shifts database.");
-                        //window.alert($.ajax
-                           // ({
-                            //type: "POST",
-                            //url: "/showgivews.aspx"})
-                            //);
-
                     }
-                    
+                            
                     else{
                         alert("You have not given up your shift");
-                    }
+                        }
 
                     }
 
@@ -68,9 +67,49 @@
             margin: 0 auto;
         }
     </style>
+
+    <div id="myModal" class="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content size-large">
+                <div class="modal-header">
+                    <h2>Modal Heading</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-delete size-medium"></i></button>
+                    <div class="modal-subtitle">
+                        <h3>Modal Secondary Heading</h3>
+                        <select class="selectbox">
+                            <option>-- Select --</option>
+                            <option>Option One</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="banner-message success">
+
+                    <span class="banner-actions">
+                        <button class="button outline white size-small banner-dismiss">Dismiss</button>
+                    </span>
+
+                    <p><span>Success: </span>You have successfully done the task you wanted to do</p>
+                </div>
+                <div class="modal-body js-modal-body">
+                    <div class="js-modal-content">
+                        <p>
+                            
+                        
+                       </p>                      
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="button">Save changes</button>
+                    <button type="button" class="button secondary outline" data-dismiss="modal">Close</button>
+                    <button type="button" class="button secondary borderless" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </head>
 <body>
     <div id='calendar'></div>
+
 </body>
 </html>
 
