@@ -7,10 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NightSchool03 {
+namespace Timescape {
     
     
     public partial class HomeScreenws {
-    
     }
 }

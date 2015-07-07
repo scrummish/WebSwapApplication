@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
+<<<<<<< HEAD
+  <IisApp path="C:\Users\Fabian\Source\Repos\WebSwapApplication\NightSchool03\NightSchool03\obj\Release\Package\PackageTmp" managedRuntimeVersion="v4.0" />
+  <setAcl path="C:\Users\Fabian\Source\Repos\WebSwapApplication\NightSchool03\NightSchool03\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\Fabian\Source\Repos\WebSwapApplication\NightSchool03\NightSchool03\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+=======
   <IisApp path="C:\Users\cj\Source\Repos\WebSwapApplication\NightSchool03\NightSchool03\obj\Release\Package\PackageTmp" managedRuntimeVersion="v4.0" />
   <setAcl path="C:\Users\cj\Source\Repos\WebSwapApplication\NightSchool03\NightSchool03\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
   <setAcl path="C:\Users\cj\Source\Repos\WebSwapApplication\NightSchool03\NightSchool03\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+>>>>>>> b4149d53178cd60dd53d9424be03afbd81482e39
 </sitemanifest>
